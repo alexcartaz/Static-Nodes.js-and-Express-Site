@@ -17,7 +17,7 @@ console.log('0')
 app.get('/', (req, res) => {
     req.locals = data.projects;
     console.log('1');
-    res.render('index');
+    res.render('index', {projects: data.projects});
 });
 
 //about route to render about page
@@ -28,8 +28,17 @@ app.get('/about', (req, res) => {
 
 //dynamic projects routes
 app.get('/project/:id', (req, res) => {
-    console.log('3')
-    res.render('project');
+    console.log('3.1')
+    res.render('project', {project: data.projects[req.params.id-1]});
+    /*res.render('project', {project: {
+        "project_name": "a",
+        "description": "b",
+        "technologies": ["CSS"],
+        "live_link": "c",
+        "github_link": "d",
+        "image_urls": ['','']
+
+    }});*/
 });
 
 //404 handler; handling non-matching request from the client
