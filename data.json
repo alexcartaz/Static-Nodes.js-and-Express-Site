@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "A simple web app that shows a random quote from a small list of quotes.",
+            "technologies": ["js", "css"],
+            "live_link": "url",
+            "github_link": "url",
+            "image_urls": ["file_path_1","file_path_2"]
+        },
+        {
+            "id": 2,
+            "project_name": "Pagination",
+            "description": "A simple web app to demonstrate pagination.",
+            "technologies": ["js", "css"],
+            "live_link": "url",
+            "github_link": "url",
+            "image_urls": ["file_path_1","file_path_2"]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "A simplified mock checkout menu form for a technology conference, including the purchasing of possible swag, access to specific speaker sessions, and supporting different payment methods.",
+            "technologies": ["js", "css"],
+            "live_link": "url",
+            "github_link": "url",
+            "image_urls": ["file_path_1","file_path_2"]
+        },
+        {
+            "id": 4,
+            "project_name": "Game Show App",
+            "description": "A simple game webapp that manages state (without using React) to let a user guess up to 5 times, letters for a randomly chosen phrase.",
+            "technologies": ["js", "css"],
+            "live_link": "url",
+            "github_link": "url",
+            "image_urls": ["file_path_1","file_path_2"]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "An app that uses the public API for Random User Generator to demonstrate some basic js concepts, such as...",
+            "technologies": ["js", "css"],
+            "live_link": "url",
+            "github_link": "url",
+            "image_urls": ["file_path_1","file_path_2"]
+        },
+        {
+            "id": 6,
+            "project_name": "Portfolio Gallery",
+            "description": "A node.js and express app highlighting the various projects Alex has completed while progressing through Treehouse's full stack javascript tech degree program.",
+            "technologies": ["js", "css"],
+            "live_link": "url",
+            "github_link": "url",
+            "image_urls": ["file_path_1","file_path_2"]
+        }
+    ]
+}
