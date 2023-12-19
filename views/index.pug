@@ -8,7 +8,7 @@ block content
     h1 My Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Coding projects recently completed in Treehouse's full stack JavaScript curriculum
 
 
   article.portfolio-project-thumbs
@@ -16,7 +16,7 @@ block content
     
         each p in projects
           .cell
-            a(href=p.github_link)
+            a(href='/project/'+p.id)
               img.thumbnail(src=p.image_urls[0], alt='')
               h5 #{p.project_name}
 

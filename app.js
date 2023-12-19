@@ -30,15 +30,6 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res) => {
     console.log('3.1')
     res.render('project', {project: data.projects[req.params.id-1]});
-    /*res.render('project', {project: {
-        "project_name": "a",
-        "description": "b",
-        "technologies": ["CSS"],
-        "live_link": "c",
-        "github_link": "d",
-        "image_urls": ['','']
-
-    }});*/
 });
 
 //404 handler; handling non-matching request from the client
