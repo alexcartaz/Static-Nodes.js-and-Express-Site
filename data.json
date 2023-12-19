@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://alexcartaz.github.io/Pagination/",
             "github_link": "https://github.com/alexcartaz/Pagination",
-            "image_urls": ["/static/images/550x550 PH.jpg","/static/images/1200x550 PH.jpg"]
+            "image_urls": ["/static/images/pagination550x550.jpg","/static/images/pagination1200x549.jpg"]
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://alexcartaz.github.io/Interactive-Form/",
             "github_link": "https://github.com/alexcartaz/Interactive-Form",
-            "image_urls": ["/static/images/550x550 PH.jpg","/static/images/1200x550 PH.jpg"]
+            "image_urls": ["/static/images/interactive550x550.jpg","/static/images/interactive1200x549.jpg"]
         },
         {
             "id": 4,

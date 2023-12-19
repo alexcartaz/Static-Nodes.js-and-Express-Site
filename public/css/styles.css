@@ -152,6 +152,7 @@ nav a span {
   width: 100%;
   max-width: 250px;
   border: 4px solid #fff;
+  border-radius: 50%;
 }
 
 .dev-intro-box {
@@ -298,8 +299,20 @@ nav a span {
   padding: 0.85em 1em;
   background-color: #333;
   border: 1px solid transparent;
+  border-radius: 10px;
 }
 
+.li {
+  background-color: #0077b5
+}
+
+.gh {
+  background-color: #6cc644
+}
+
+.tw {
+  background-color: #1DA1F2
+}
 
 /* 
   Tablet layout styles 

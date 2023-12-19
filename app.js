@@ -2,12 +2,16 @@ const express = require('express');
 // const bodyParser = require('body-parser');
 // const cookieParser = require('cookie-parser');
 const data = require('./data.json');
+//let favicon = require('serve-favicon');
 
 const app = express();
 
 app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
+
+
+//app.use(favicon('/static/images/favicon.ico'));
 
 console.log('0')
 // app.use(bodyParser.urlencoded({ extended: false}));
