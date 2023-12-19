@@ -4,25 +4,20 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
+    //- Website title
     h1 My Portfolio
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+    //- Website description
     p Coding projects recently completed in Treehouse's full stack JavaScript curriculum
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-    
+        //- iterates over each project in the data.json to render project cards with image and url
         each p in projects
           .cell
             a(href='/project/'+p.id)
               img.thumbnail(src=p.image_urls[0], alt='')
               h5 #{p.project_name}
 
-              //- Use the Pug `each` iterator to loop over the projects in your data file  
               
-                //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-                  //- The paths in the link's href and img's src attributes
-                  //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-                  //- The project title for the h5 element's text

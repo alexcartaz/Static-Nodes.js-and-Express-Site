@@ -3,16 +3,16 @@
         {
             "id": 1,
             "project_name": "Random Quote Generator",
-            "description": "A simple web app that shows a random quote from a small list of quotes.",
+            "description": "A simple web app that shows a random quote from a small list of mostly historical quotes read by Leonard Nimoy in the game Civilization 4. Quotes and colors are chosen at random. A new quote and color is also displayed after a set interval.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://alexcartaz.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/alexcartaz/Random-Quote-Generator",
-            "image_urls": ["/static/images/550x550 PH.jpg","/static/images/1200x550 PH.jpg"]
+            "image_urls": ["/static/images/quote550x550.jpg","/static/images/quote1200x550.jpg"]
         },
         {
             "id": 2,
             "project_name": "Pagination",
-            "description": "A simple web app to demonstrate pagination.",
+            "description": "A simple web app to demonstrate pagination. This app displays a static list of user profiles on pages by dynamically generating the HTML element objects. It also supports substring search results, which are also paginated.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://alexcartaz.github.io/Pagination/",
             "github_link": "https://github.com/alexcartaz/Pagination",
@@ -21,7 +21,7 @@
         {
             "id": 3,
             "project_name": "Interactive Form",
-            "description": "A simplified mock checkout menu form for a technology conference, including the purchasing of possible swag, access to specific speaker sessions, and supporting different payment methods.",
+            "description": "A simplified mock checkout menu form for a technology conference, including the purchasing of possible swag, access to specific speaker sessions, and supporting different payment methods. Handles multiple types of user inputs, conditional logic for checkout flows, and form validation for checkout.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://alexcartaz.github.io/Interactive-Form/",
             "github_link": "https://github.com/alexcartaz/Interactive-Form",
@@ -30,29 +30,20 @@
         {
             "id": 4,
             "project_name": "Game Show App",
-            "description": "A simple game webapp that uses OOP and manages state (without using React) to let a user guess up to 5 times, letters for a randomly chosen phrase.",
+            "description": "A simple game webapp that uses OOP and manages state (without using React) to let a user guess letters up to 5 times for a randomly chosen phrase.",
             "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
             "live_link": "https://alexcartaz.github.io/OOP-Game-Show-App/",
             "github_link": "https://github.com/alexcartaz/OOP-Game-Show-App",
-            "image_urls": ["/static/images/550x550 PH.jpg","/static/images/1200x550 PH.jpg"]
+            "image_urls": ["/static/images/game550x550.jpg","/static/images/game1200x549.jpg"]
         },
         {
             "id": 5,
             "project_name": "Public API Requests",
-            "description": "An app that uses the public API for Random User Generator to demonstrate some basic js concepts, such as...",
+            "description": "An app that uses the public API for Random User Generator to demonstrate some basic js concepts, such as fetch, conditional user handling, modal displays, and the cycling between users on the current page.",
             "technologies": ["HTML", "CSS", "JavaScript","Fetch and Public APIs"],
             "live_link": "https://alexcartaz.github.io/Public-API-Requests/",
             "github_link": "https://github.com/alexcartaz/Public-API-Requests",
-            "image_urls": ["/static/images/550x550 PH.jpg","/static/images/1200x550 PH.jpg"]
-        },
-        {
-            "id": 6,
-            "project_name": "Portfolio Gallery",
-            "description": "A node.js and express app highlighting the various projects Alex has completed while progressing through Treehouse's full stack javascript tech degree program.",
-            "technologies": ["HTML", "CSS", "JavaScript","Node.js","Express","Pug"],
-            "live_link": "url",
-            "github_link": "https://github.com/alexcartaz/Static-Nodes.js-and-Express-Site",
-            "image_urls": ["/static/images/550x550 PH.jpg","./static/images/1200x550 PH.jpg"]
+            "image_urls": ["/static/images/api550x550.jpg","/static/images/api1200x550.jpg"]
         }
     ]
 }
