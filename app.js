@@ -36,24 +36,28 @@ app.get('/project/:id', (req, res) => {
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
+    console.log('404')
     next(err);
 });
 
 //global error handler
-app.use((error, req, res, next) => {
-    console.log('4')
-    if(!error.status){
+app.use((err, req, res, next) => {
+    if(!err.status){
         console.log('error message missing status');
-        error.status = 'missing';
+        err.status = 'missing';
     }
-    console.log('5')
-    if(!error.message){
+    if(!err.message){
         console.log('error message missing status');
-        error.message = 'missing';
+        err.message = 'missing';
     }
-    console.log('6')
-    console.log(`Error: ${error.status} ${error.message}`);
-    res.status(error.status).send(`<h1>${error.message}</h1>`)
+    if(err.status === 404){
+        console.log('0')
+        res.render('page-not-found', {err});
+    }else{
+        console.log('1')
+        res.render('error', {err});
+    }
+    //res.status(error.status).send(`<h1>${error.message}</h1>`)
 });
 
 

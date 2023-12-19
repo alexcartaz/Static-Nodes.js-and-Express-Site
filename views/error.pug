@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+
+    img(src='https://media2.giphy.com/media/H8bzCgnzMVgWs/giphy.gif?cid=2154d3d7bhnya36m16b66nkgn6yl6piiriixphrpvjzuqhcp&ep=v1_gifs_related&rid=giphy.gif&ct=g', alt='Barney Fife scratching his head; confused')
+    br
+    .error Whoops! something went wrong
+    br
+    .error #{err.status} #{err.message}
+    br
+    a(href='/') Back to Home &rarr;
