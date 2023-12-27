@@ -38,6 +38,7 @@ app.use((err, req, res, next) => {
         err.message = 'missing';
     }
     //if 404, render 404 page
+    console.log(`${err.status}: ${err.message}`);
     if(err.status === 404){
         res.render('page-not-found', {err});
     }else{
